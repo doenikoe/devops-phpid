@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web:
+    image: doenikoe/laravel5:v1
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+    volumes:
+      - ./web:/usr/share/nginx/html
+  db:
+    image: mysql:latest
+    environment:
+       MYSQL_ROOT_PASSWORD: secret
+       MYSQL_DATABASE: laravel
