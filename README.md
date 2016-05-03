@@ -1,4 +1,4 @@
-# devops-phpid
+# Dockerize Laravel Application
 Tutorial membangun aplikasi dengan laravel 5 dan docker. Untuk menjalankan instruksi dalam tutorial ini sangat disarankan menggunakan docker yang dijalankan diatas docker machine.
 
 # Cara Penggunaan
