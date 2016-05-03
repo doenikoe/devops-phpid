@@ -1,2 +1,2 @@
-service php5-fpm start
+service php7.0-fpm start
 service nginx start

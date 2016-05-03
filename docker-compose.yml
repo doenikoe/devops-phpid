@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: doenikoe/laravel5:v1
+    image: doenikoe/laravel5:v2
     ports:
       - "8000:80"
     depends_on:
