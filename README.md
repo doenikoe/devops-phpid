@@ -30,5 +30,5 @@ ip_docker_machine laravel.app
 ```
 Penting untuk diingat bahwa lokasi file hosts berbeda-beda di setiap sistem operasi. Jika anda menggunakan Mac/Linux maka file host berada di direktori /etc/hosts sedangkan jika anda menggunakan windows maka file hosts ada didalam direktori  C:\Windows\System32\drivers\etc\hosts.
 
-# Menjalankan aplikasi laravel
+# Menjalankan Aplikasi Laravel
 Anda dapat menjalankan aplikasi laravel yang telah terinstall dengan mengetikkan http://laravel.app:8000 pada browser.
