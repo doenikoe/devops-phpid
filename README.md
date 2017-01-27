@@ -14,7 +14,7 @@ cd devops-phpid
 ```
 Build image:
 ```
-docker-build -t doenikoe/laravel5:v1 .
+docker build -t doenikoe/laravel5:v1 .
 ```
 Jalankan container dengan docker-compose:
 ```
